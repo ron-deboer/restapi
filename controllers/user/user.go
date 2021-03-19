@@ -1,10 +1,10 @@
-package user
+package controllers
 
 import (
 	"errors"
 	"net/http"
 
-	"RESTapi/conn"
+	conn "RESTapi/db"
 	user "RESTapi/models/user"
 
 	"github.com/gin-gonic/gin"

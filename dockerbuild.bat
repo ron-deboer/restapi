@@ -1,0 +1,1 @@
+docker build -f .\Dockerfile -t restapi:0.01 .\

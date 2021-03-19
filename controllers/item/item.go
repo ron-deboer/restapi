@@ -1,10 +1,10 @@
-package item
+package controllers
 
 import (
 	"errors"
 	"net/http"
 
-	"RESTapi/conn"
+	conn "RESTapi/db"
 	item "RESTapi/models/item"
 
 	"github.com/gin-gonic/gin"
