@@ -29,5 +29,5 @@ func StartGin() {
 	router.NoRoute(func(c *gin.Context) {
 		c.AbortWithStatus(http.StatusNotFound)
 	})
-	router.Run(":8000")
+	router.Run(":8001")
 }
