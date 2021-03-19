@@ -1,7 +1,7 @@
-package model
+package models
 
 import (
-	"RESTapi/conn"
+	conn "RESTapi/db"
 	"gopkg.in/mgo.v2/bson"
 )
 
