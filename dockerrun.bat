@@ -1,1 +1,1 @@
-docker run -p 8001:8001 restapi:0.01
+docker run -p 8001:8001 restapi:0.02
